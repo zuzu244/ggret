@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             GgretTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-                    Greeting("Mercy")
+                    Greeting("zubeda")
                 }
             }
         }
@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello $name!, How are you?",
+        text = "Hello $name!, How are you?, Where do you come from?"
         modifier = modifier.padding(24.dp)
     )
 }
@@ -40,6 +40,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     GgretTheme {
-        Greeting(" Mercy")
+        Greeting(" zubeda")
     }
 }
