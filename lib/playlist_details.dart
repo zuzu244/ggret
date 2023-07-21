@@ -3,6 +3,8 @@ import 'package:googleapis/youtube/v3.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/link.dart';
 
+import 'adaptive_image.dart';
+import 'adaptive_text.dart';
 import 'app_state.dart';
 
 class PlaylistDetails extends StatelessWidget {
